@@ -110,11 +110,8 @@ def boyer_moore_search(text, pattern):
 # Driver code
 if __name__ == "__main__":
     print("--- Full Boyer-Moore Algorithm Execution ---")
-    # Simulating user input for the demonstration
-    text_input = "ABAAAABAACD"
-    pattern_input = "ABA"
-    
-    print(f"Text:    {text_input}")
-    print(f"Pattern: {pattern_input}\n")
+
+    text_input = input("Key in the Text: ")
+    pattern_input = input("Key in the Pattern: ")
     
     boyer_moore_search(text_input, pattern_input)
