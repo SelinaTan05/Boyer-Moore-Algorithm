@@ -109,7 +109,7 @@ def boyer_moore_search(text, pattern):
 
 # Driver code
 if __name__ == "__main__":
-    print("--- Full Boyer-Moore Algorithm Execution ---")
+    print("--- Boyer-Moore Algorithm Execution ---")
 
     text_input = input("Key in the Text: ")
     pattern_input = input("Key in the Pattern: ")
